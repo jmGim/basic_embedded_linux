@@ -1,0 +1,57 @@
+b main
+s
+s
+r
+s
+s
+n
+n
+p name
+p &name
+s
+s
+s
+p &name
+s
+n
+finish
+set history filename likefile_gdb
+r
+r
+n
+s
+s
+s
+s
+s
+s
+n
+n
+s
+n
+s
+n
+s
+n
+s
+n
+n
+n
+jump
+finish
+r
+n
+n
+n
+n
+s
+s
+r
+set history filename likefile_gdb
+show commands
+set history size 199
+show commands
+set history save on
+p str
+p str
+q

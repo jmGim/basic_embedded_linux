@@ -1,0 +1,39 @@
+Quit
+"on" or "off" expected.
+Breakpoint 1 at 0x653d6d142220: file like.c, line 13.
+Starting program: /home/ubuntu/linuxC/library.d/gdb.d/like 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at like.c:13
+13		str = getname();
+14		printf("I like you.\n");
+15		printf("%s\n",str);
+
+Program received signal SIGSEGV, Segmentation fault.
+__strlen_sse2 () at ../sysdeps/x86_64/multiarch/strlen-sse2.S:142
+warning: 142	../sysdeps/x86_64/multiarch/strlen-sse2.S: 그런 파일이나 디렉터리가 없습니다
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+No symbol "str" in current context.
+Note: breakpoint 1 also set at pc 0x555555555220.
+Breakpoint 2 at 0x555555555220: file like.c, line 13.
+Starting program: /home/ubuntu/linuxC/library.d/gdb.d/like 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at like.c:13
+13		str = getname();
+14		printf("I like you.\n");
+15		printf("%s\n",str);
+$1 = 0x0
+
+Program received signal SIGSEGV, Segmentation fault.
+__strlen_sse2 () at ../sysdeps/x86_64/multiarch/strlen-sse2.S:142
+warning: 142	../sysdeps/x86_64/multiarch/strlen-sse2.S: 그런 파일이나 디렉터리가 없습니다
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Quit
+Quit

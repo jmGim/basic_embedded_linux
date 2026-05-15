@@ -1,0 +1,24 @@
+r
+b main
+set history save on
+ set history filename static변수
+n
+p str
+s
+jain
+n
+n
+n
+n
+s
+r
+n
+n
+n
+n
+n
+n
+n
+show history
+cd ..
+q
