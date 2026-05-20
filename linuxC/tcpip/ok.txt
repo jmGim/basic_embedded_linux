@@ -1,0 +1,4 @@
+argc : 2
+argv[0] : ./copy,  ./copy
+argv[1] : copy.c
+argv[2] : (null)
